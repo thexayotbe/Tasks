@@ -49,7 +49,6 @@ Each folder is neatly organized based on the platform and the problem number for
     ├── Problem_1001_BinarySearch.cpp
     └── ...
 ```
-
 ---
 
 ### 🌐 Let's Stay Connected!
