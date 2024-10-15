@@ -1,3 +1,0 @@
-/Users/xayotbek/Desktop/Tasks/2938. Separate Black and White Balls/cmake-build-debug/CMakeFiles/2938__Separate_Black_and_White_Balls.dir
-/Users/xayotbek/Desktop/Tasks/2938. Separate Black and White Balls/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xayotbek/Desktop/Tasks/2938. Separate Black and White Balls/cmake-build-debug/CMakeFiles/rebuild_cache.dir
