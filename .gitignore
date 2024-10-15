@@ -1,0 +1,20 @@
+# Ignore compiler-generated files and folders
+*.o
+*.out
+*.obj
+*.exe
+*.class
+
+# Ignore build directories
+cmake-build-debug/
+.idea/
+build/
+bin/
+obj/
+*.log
+
+# Ignore other IDE-related files
+*.iml
+*.project
+.DS_Store  # For macOS
+.vscode/
