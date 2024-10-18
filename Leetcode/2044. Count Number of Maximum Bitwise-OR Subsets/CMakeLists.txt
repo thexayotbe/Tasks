@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29)
+project(2044__Count_Number_of_Maximum_Bitwise_OR_Subsets)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(2044__Count_Number_of_Maximum_Bitwise_OR_Subsets main.cpp)

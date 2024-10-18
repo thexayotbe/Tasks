@@ -1,0 +1,3 @@
+/Users/xayotbek/Desktop/Tasks/Leetcode/2044. Count Number of Maximum Bitwise-OR Subsets/cmake-build-debug/CMakeFiles/2044__Count_Number_of_Maximum_Bitwise_OR_Subsets.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/2044. Count Number of Maximum Bitwise-OR Subsets/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/2044. Count Number of Maximum Bitwise-OR Subsets/cmake-build-debug/CMakeFiles/rebuild_cache.dir
