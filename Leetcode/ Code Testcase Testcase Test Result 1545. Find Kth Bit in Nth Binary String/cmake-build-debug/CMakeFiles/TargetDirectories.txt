@@ -1,0 +1,3 @@
+/Users/xayotbek/Desktop/Tasks/Leetcode/ Code Testcase Testcase Test Result 1545. Find Kth Bit in Nth Binary String/cmake-build-debug/CMakeFiles/_Code_Testcase_Testcase_Test_Result_1545__Find_Kth_Bit_in_Nth_Binary_String.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/ Code Testcase Testcase Test Result 1545. Find Kth Bit in Nth Binary String/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/ Code Testcase Testcase Test Result 1545. Find Kth Bit in Nth Binary String/cmake-build-debug/CMakeFiles/rebuild_cache.dir
