@@ -1,0 +1,3 @@
+/Users/xayotbek/Desktop/Tasks/Leetcode/ Code Testcase Test Result Test Result 2559. Count Vowel Strings in Ranges/cmake-build-debug/CMakeFiles/_Code_Testcase_Test_Result_Test_Result_2559__Count_Vowel_Strings_in_Ranges.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/ Code Testcase Test Result Test Result 2559. Count Vowel Strings in Ranges/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/ Code Testcase Test Result Test Result 2559. Count Vowel Strings in Ranges/cmake-build-debug/CMakeFiles/rebuild_cache.dir
