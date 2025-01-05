@@ -1,8 +1,3 @@
-#include <iostream>
-#include <numeric>
-
-using namespace std;
-
 class Solution {
 public:
     string shiftingLetters(string s, vector<vector<int> > &shifts) {
@@ -32,4 +27,3 @@ public:
         return s;
     }
 };
-
