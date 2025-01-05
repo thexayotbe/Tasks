@@ -33,11 +33,3 @@ public:
     }
 };
 
-
-int main() {
-    Solution solution;
-    string s = "abc";
-    vector<vector<int> > shifts = {{0, 1, 0}, {1, 2, 1}, {0, 2, 1}};
-    cout << solution.shiftingLetters(s, shifts) << endl;
-    return 0;
-}
