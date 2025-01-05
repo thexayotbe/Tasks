@@ -1,0 +1,3 @@
+/Users/xayotbek/Desktop/Tasks/Leetcode/2381. Shifting Letters II/cmake-build-debug/CMakeFiles/2381__Shifting_Letters_II.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/2381. Shifting Letters II/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/2381. Shifting Letters II/cmake-build-debug/CMakeFiles/rebuild_cache.dir
