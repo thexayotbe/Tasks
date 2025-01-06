@@ -1,9 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <string>
-#include <cmath>
-using namespace std;
-
 vector<int> minOperations(string boxes) {
     int n = boxes.size();
     vector<int> answer(n, 0);
@@ -31,17 +25,4 @@ vector<int> minOperations(string boxes) {
     }
 
     return answer;
-}
-
-int main() {
-    string boxes = "110";
-    vector<int> result = minOperations(boxes);
-
-    cout << "Result: ";
-    for (int x : result) {
-        cout << x << " ";
-    }
-    cout << endl;
-
-    return 0;
 }
