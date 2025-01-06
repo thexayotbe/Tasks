@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29)
+project(1769__Minimum_Number_of_Operations_to_Move_All_Balls_to_Each_Box)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(1769__Minimum_Number_of_Operations_to_Move_All_Balls_to_Each_Box main.cpp)
