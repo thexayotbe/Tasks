@@ -41,12 +41,16 @@ Each folder is neatly organized based on the platform and the problem number for
 ```
 .
 ├── LeetCode/
-│   ├── Problem_1_TwoSum.cpp
-│   ├── Problem_2_AddTwoNumbers.cpp
+│   ├── 1_TwoSum
+|   |   |- main.cpp
+│   ├── 2_AddTwoNumbers
+|   |   |- main.cpp
 │   └── ...
 └── Codeforces/
-    ├── Problem_1000_A_plus_B.cpp
-    ├── Problem_1001_BinarySearch.cpp
+    ├── 1_TwoSum
+    |   |- main.cpp
+    ├── 2_AddTwoNumbers
+    |   |- main.cpp
     └── ...
 ```
 ---
