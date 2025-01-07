@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 3.29)
-project(1930__Unique_Length_3_Palindromic_Subsequences)
-
-set(CMAKE_CXX_STANDARD 20)
-
-add_executable(1930__Unique_Length_3_Palindromic_Subsequences main.cpp)

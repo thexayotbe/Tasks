@@ -1,3 +1,0 @@
-/Users/xayotbek/Desktop/Tasks/Leetcode/1071. Greatest Common Divisor of Strings/cmake-build-debug/CMakeFiles/1071__Greatest_Common_Divisor_of_Strings.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/1071. Greatest Common Divisor of Strings/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/1071. Greatest Common Divisor of Strings/cmake-build-debug/CMakeFiles/rebuild_cache.dir

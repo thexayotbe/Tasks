@@ -1,7 +1,3 @@
-#include <string>
-
-using namespace std;
-
 class Solution {
 public:
     std::string longestDiverseString(int a, int b, int c) {

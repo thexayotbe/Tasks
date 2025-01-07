@@ -1,8 +1,3 @@
-#include <iostream>
-#include <vector>
-using namespace std;
-
-
 class Solution {
 public:
     int waysToSplitArray(vector<int> &nums) {
@@ -22,11 +17,3 @@ public:
         return result;
     }
 };
-
-
-int main() {
-    Solution solution;
-    vector<int> nums = {10,4,-8,7};
-    cout << solution.waysToSplitArray(nums) << endl;
-    return 0;
-}

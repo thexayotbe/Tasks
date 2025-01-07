@@ -1,3 +1,0 @@
-/Users/xayotbek/Desktop/Tasks/Leetcode/1930. Unique Length-3 Palindromic Subsequences/cmake-build-debug/CMakeFiles/1930__Unique_Length_3_Palindromic_Subsequences.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/1930. Unique Length-3 Palindromic Subsequences/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/1930. Unique Length-3 Palindromic Subsequences/cmake-build-debug/CMakeFiles/rebuild_cache.dir

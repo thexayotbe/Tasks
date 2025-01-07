@@ -1,3 +1,0 @@
-/Users/xayotbek/Desktop/Tasks/Leetcode/1769. Minimum Number of Operations to Move All Balls to Each Box/cmake-build-debug/CMakeFiles/1769__Minimum_Number_of_Operations_to_Move_All_Balls_to_Each_Box.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/1769. Minimum Number of Operations to Move All Balls to Each Box/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/1769. Minimum Number of Operations to Move All Balls to Each Box/cmake-build-debug/CMakeFiles/rebuild_cache.dir

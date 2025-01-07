@@ -1,3 +1,0 @@
-/Users/xayotbek/Desktop/Tasks/Leetcode/1422. Maximum Score After Splitting a String/cmake-build-debug/CMakeFiles/1422__Maximum_Score_After_Splitting_a_String.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/1422. Maximum Score After Splitting a String/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/1422. Maximum Score After Splitting a String/cmake-build-debug/CMakeFiles/rebuild_cache.dir

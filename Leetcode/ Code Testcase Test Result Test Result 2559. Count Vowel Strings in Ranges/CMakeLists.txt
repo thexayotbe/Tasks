@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 3.29)
-project(_Code_Testcase_Test_Result_Test_Result_2559__Count_Vowel_Strings_in_Ranges)
-
-set(CMAKE_CXX_STANDARD 20)
-
-add_executable(_Code_Testcase_Test_Result_Test_Result_2559__Count_Vowel_Strings_in_Ranges main.cpp)
