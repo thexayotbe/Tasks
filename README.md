@@ -1,6 +1,6 @@
 
 
-# 🚀 LeetCode & Codeforces Solutions
+# 🚀  LeetCode & Codeforces Solutions
 
 Welcome to my repository! 💻 This space is dedicated to my journey of solving problems from **LeetCode** and **Codeforces**. You'll find a collection of my code solutions in various programming languages like **C++**, **Java**, and more.
 
