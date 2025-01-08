@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /Users/xayotbek/Desktop/Tasks/Leetcode/3042. Count Prefix and Suffix Pairs I Select CMakeLists.txt
