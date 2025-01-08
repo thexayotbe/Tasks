@@ -1,3 +1,0 @@
-/Users/xayotbek/Desktop/Tasks/Leetcode/3042. Count Prefix and Suffix Pairs I/cmake-build-debug/CMakeFiles/3042__Count_Prefix_and_Suffix_Pairs_I.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/3042. Count Prefix and Suffix Pairs I/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/3042. Count Prefix and Suffix Pairs I/cmake-build-debug/CMakeFiles/rebuild_cache.dir
