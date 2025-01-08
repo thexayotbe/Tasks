@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "3042__Count_Prefix_and_Suffix_Pairs_I",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "3042__Count_Prefix_and_Suffix_Pairs_I::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3042__Count_Prefix_and_Suffix_Pairs_I-Debug-7665adc59dbf8f97b219.json",
+					"name" : "3042__Count_Prefix_and_Suffix_Pairs_I",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/xayotbek/Desktop/Tasks/Leetcode/3042. Count Prefix and Suffix Pairs I/cmake-build-debug",
+		"source" : "/Users/xayotbek/Desktop/Tasks/Leetcode/3042. Count Prefix and Suffix Pairs I"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
