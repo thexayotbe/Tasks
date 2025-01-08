@@ -81,6 +81,7 @@
       <workItem from="1728977586183" duration="2499000" />
       <workItem from="1729063584293" duration="39000" />
       <workItem from="1736236559240" duration="960000" />
+      <workItem from="1736240807445" duration="75000" />
     </task>
     <task id="LOCAL-00001" summary="Added .gitignore">
       <option name="closed" value="true" />
@@ -186,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736236858000</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Restructure and adding ReadMe.md">
+      <option name="closed" value="true" />
+      <created>1736240830818</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1736240830819</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
