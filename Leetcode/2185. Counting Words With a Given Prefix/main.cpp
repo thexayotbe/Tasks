@@ -1,7 +1,3 @@
-#include <iostream>
-using namespace std;
-
-
 class Solution {
 public:
     int prefixCount(vector<string>& words, string pref) {
@@ -14,10 +10,4 @@ public:
         return result;
     }
 };
-int main() {
-    Solution solution;
-    vector<string> words = {"pay","attention","practice","attend"};
-    string pref = "at";
-    cout << solution.prefixCount(words, pref) << endl;
-    return 0;
-}
+
