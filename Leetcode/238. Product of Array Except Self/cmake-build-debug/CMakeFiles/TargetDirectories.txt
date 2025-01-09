@@ -1,3 +1,0 @@
-/Users/xayotbek/Desktop/Tasks/Leetcode/238. Product of Array Except Self/cmake-build-debug/CMakeFiles/238__Product_of_Array_Except_Self.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/238. Product of Array Except Self/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/238. Product of Array Except Self/cmake-build-debug/CMakeFiles/rebuild_cache.dir
