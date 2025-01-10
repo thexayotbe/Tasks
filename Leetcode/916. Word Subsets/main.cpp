@@ -1,59 +1,38 @@
-#include <iostream>
-#include <map>
-#include <unordered_set>
-using namespace std;
-
-
 class Solution {
 public:
-    unordered_map<char, int> frequenctCount(const string& s) {
-        unordered_map<char, int> freq;
-        for (char c : s) {
-            freq[c]++;
-        }
-        return freq;
+    vector<string> wordSubsets(vector<string>& mainWords, vector<string>& requiredWords) {
+        int maxCharFreq[26] = {0};
+        int tempCharFreq[26];
 
-    }
-    vector<string> wordSubsets(vector<string> &words1, vector<string> &words2) {
-        unordered_map<char, int> maxFreq;
-        for (string& b : words2) {
-            unordered_map<char, int> freq = frequenctCount(b);
-            for (auto& pair : freq) {
-                char ch = pair.first;
-                int count = pair.second;
-                if (maxFreq.find(ch) == maxFreq.end() || maxFreq[ch] < count) {
-                    maxFreq[ch] = count;
-                }
+        for (const auto& word : requiredWords) {
+            memset(tempCharFreq, 0, sizeof tempCharFreq);//To Set Temp freq all to zero
+            //You can do vector<int> tempCharFreq(26,0);
+            for (char ch : word) {
+                tempCharFreq[ch - 'a']++;
+            }
+            for (int i = 0; i < 26; ++i) {
+                maxCharFreq[i] = max(maxCharFreq[i], tempCharFreq[i]);
             }
         }
-        vector<string> result;
-        for(string& a : words1) {
-            unordered_map<char, int> freqA = frequenctCount(a);
-            bool isUniversal = true;
 
-            for (auto& pair : maxFreq) {
-                char ch = pair.first;
-                int requiredCount = pair.second;
-                if (freqA.find(ch) == freqA.end() || freqA[ch] < requiredCount) {
+        vector<string> universalWords;
+
+        for (const auto& word : mainWords) {
+            memset(tempCharFreq, 0, sizeof tempCharFreq);
+            for (char ch : word) {
+                tempCharFreq[ch - 'a']++;
+            }
+            bool isUniversal = true;
+            for (int i = 0; i < 26; ++i) {
+                if (maxCharFreq[i] > tempCharFreq[i]) {
                     isUniversal = false;
                     break;
                 }
             }
             if (isUniversal) {
-                result.push_back(a);
+                universalWords.emplace_back(word);
             }
         }
-        for(string s : result) {
-            cout << s << endl;
-        }
-        return result;
+        return universalWords;
     }
 };
-
-int main() {
-    Solution solution;
-    vector<string> word1 = {"amazon","apple","facebook","google","leetcode"};
-    vector<string> word2 = {"e", "oo"};
-    solution.wordSubsets(word1, word2);
-    return 0;
-}
