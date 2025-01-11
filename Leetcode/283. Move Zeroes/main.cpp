@@ -1,5 +1,3 @@
-#include <iostream>
-using namespace std;
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -10,20 +8,9 @@ public:
                 slow++;
             }
         }
-
         while(slow < nums.size()) {
             nums[slow] = 0;
             slow++;
         }
-        for(int nums : nums) {
-            cout << nums << ' ';
-        }
     }
 };
-int main() {
-    vector<int>  nums = {0,1,0,3,12};
-    Solution s;
-    s.moveZeroes(nums);
-
-    return 0;
-}
