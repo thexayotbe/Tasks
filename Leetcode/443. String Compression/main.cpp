@@ -1,6 +1,3 @@
-#include <iostream>
-using namespace std;
-
 class Solution {
 public:
     int compress(vector<char> &chars) {
@@ -29,10 +26,3 @@ public:
         return write;
     }
 };
-
-int main() {
-    Solution solution;
-    vector<char> chars = {'a', 'a', 'b', 'b', 'c', 'c', 'c'};
-    std::cout << solution.compress(chars) << std::endl;
-    return 0;
-}
