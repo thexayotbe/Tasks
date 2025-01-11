@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "1400__Construct_K_Palindrome_Strings",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1400__Construct_K_Palindrome_Strings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1400__Construct_K_Palindrome_Strings-Debug-45b282c49462042e7ffc.json",
+					"name" : "1400__Construct_K_Palindrome_Strings",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/xayotbek/Desktop/Tasks/Leetcode/1400. Construct K Palindrome Strings/cmake-build-debug",
+		"source" : "/Users/xayotbek/Desktop/Tasks/Leetcode/1400. Construct K Palindrome Strings"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
