@@ -1,3 +1,0 @@
-/Users/xayotbek/Desktop/Tasks/Leetcode/1400. Construct K Palindrome Strings/cmake-build-debug/CMakeFiles/1400__Construct_K_Palindrome_Strings.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/1400. Construct K Palindrome Strings/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/1400. Construct K Palindrome Strings/cmake-build-debug/CMakeFiles/rebuild_cache.dir
