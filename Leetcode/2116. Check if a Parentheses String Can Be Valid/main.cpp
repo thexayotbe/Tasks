@@ -5,24 +5,25 @@ public:
         if (n % 2 != 0)
             return false;
 
-        int forwardBalance = 0, backwardBalance = 0;
+        // Forward and backward balances
+        int openPossible = 0, openNeeded = 0;
 
+        // Single pass to handle both forward and backward logic
         for (int i = 0; i < n; ++i) {
-            // Forward pass
+            // Forward logic (opening balance)
             if (locked[i] == '0' || s[i] == '(')
-                forwardBalance++;
+                openPossible++;
             else
-                forwardBalance--;
+                openPossible--;
 
-            // Backward pass
-            int j = n - 1 - i;
-            if (locked[j] == '0' || s[j] == ')')
-                backwardBalance++;
+            // Backward logic (closing balance)
+            if (locked[n - 1 - i] == '0' || s[n - 1 - i] == ')')
+                openNeeded++;
             else
-                backwardBalance--;
+                openNeeded--;
 
-            // Check for invalid balance
-            if (forwardBalance < 0 || backwardBalance < 0)
+            // If either forward or backward balance is invalid at any point
+            if (openPossible < 0 || openNeeded < 0)
                 return false;
         }
 
