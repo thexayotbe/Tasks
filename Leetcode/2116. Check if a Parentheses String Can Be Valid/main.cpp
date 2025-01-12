@@ -15,7 +15,6 @@ public:
                 openPossible++;
             else
                 openPossible--;
-
             // Backward logic (closing balance)
             if (locked[n - 1 - i] == '0' || s[n - 1 - i] == ')')
                 openNeeded++;
