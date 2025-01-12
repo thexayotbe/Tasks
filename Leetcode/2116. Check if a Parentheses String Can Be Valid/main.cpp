@@ -1,5 +1,4 @@
-#include <iostream>
-using namespace std;
+
 class Solution {
 public:
     bool canBeValid(string s, string locked) {
@@ -30,12 +29,3 @@ public:
         return true;
     }
 };
-
-
-int main() {
-    Solution solution;
-    string s = "((()(()()))()((()()))))()((()(()";
-    string locked = "10111100100101001110100010001001";
-    std::cout << solution.canBeValid(s, locked)<< std::endl;
-    return 0;
-}
