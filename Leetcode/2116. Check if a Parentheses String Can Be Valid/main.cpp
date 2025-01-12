@@ -20,7 +20,6 @@ public:
                 openNeeded++;
             else
                 openNeeded--;
-
             // If either forward or backward balance is invalid at any point
             if (openPossible < 0 || openNeeded < 0)
                 return false;
