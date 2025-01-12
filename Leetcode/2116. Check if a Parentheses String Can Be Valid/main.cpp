@@ -1,31 +1,31 @@
-
 class Solution {
 public:
     bool canBeValid(string s, string locked) {
         int n = s.size();
-        if(n % 2 != 0 || n != locked.size()) return false;
+        if (n % 2 != 0)
+            return false;
 
-        int openCount = 0;
+        int forwardBalance = 0, backwardBalance = 0;
 
-        for(int i = 0; i < n; ++i) {
-            if(locked[i] =='0' && s[i] == '(') {
-                openCount++;
-            }
-            else openCount--;
+        for (int i = 0; i < n; ++i) {
+            // Forward pass
+            if (locked[i] == '0' || s[i] == '(')
+                forwardBalance++;
+            else
+                forwardBalance--;
 
-            if(openCount < 0) return false;
+            // Backward pass
+            int j = n - 1 - i;
+            if (locked[j] == '0' || s[j] == ')')
+                backwardBalance++;
+            else
+                backwardBalance--;
+
+            // Check for invalid balance
+            if (forwardBalance < 0 || backwardBalance < 0)
+                return false;
         }
 
-        openCount = 0;
-
-        for(int i = n-1; i >= 0; --i) {
-            if(locked[i] =='0' && s[i] == ')') {
-                openCount++;
-            }
-            else openCount--;
-
-            if(openCount < 0) return false;
-        }
         return true;
     }
 };
