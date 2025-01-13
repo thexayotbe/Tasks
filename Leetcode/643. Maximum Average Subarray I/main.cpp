@@ -8,7 +8,6 @@ public:
         for (int i = 0; i < k; i++) {
             windowSum += nums[i];
         }
-
         double maxSum = windowSum;
 
         for (int i = k; i < nums.size(); i++) {
