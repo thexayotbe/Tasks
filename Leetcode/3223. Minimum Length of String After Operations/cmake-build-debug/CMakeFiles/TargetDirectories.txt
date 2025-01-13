@@ -1,0 +1,3 @@
+/Users/xayotbek/Desktop/Tasks/Leetcode/3223. Minimum Length of String After Operations/cmake-build-debug/CMakeFiles/3223__Minimum_Length_of_String_After_Operations.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/3223. Minimum Length of String After Operations/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/3223. Minimum Length of String After Operations/cmake-build-debug/CMakeFiles/rebuild_cache.dir
