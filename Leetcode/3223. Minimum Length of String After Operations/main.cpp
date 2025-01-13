@@ -5,18 +5,20 @@ public:
         for(char ch : s) {
             chars[ch - 'a']++;
         }
-        int len = 0;
 
-       for(int i = 0; i < 26; i++) {
-           if(chars[i] %2 == 1 ) {
-               chars[i] = 1;
-           }
-           else if(chars[i] %2 == 0 && chars[i] > 2 ) {
-               chars[i] = 2;
-           }
-           len+=chars[i];
-       }
+        for(int i = 0; i < 26; i++) {
+            if(chars[i] %2 == 1 ) {
+                chars[i] = 1;
+            }
+            else if(chars[i] %2 == 0 && chars[i] > 2 ) {
+                chars[i] = 2;
+            }
+        }
+
+        int len = 0;
+        for(int i : chars) {
+            len += i;
+        }
         return len;
     }
 };
-
