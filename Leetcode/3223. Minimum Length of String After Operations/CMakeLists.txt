@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 3.29)
-project(3223__Minimum_Length_of_String_After_Operations)
-
-set(CMAKE_CXX_STANDARD 20)
-
-add_executable(3223__Minimum_Length_of_String_After_Operations main.cpp)
