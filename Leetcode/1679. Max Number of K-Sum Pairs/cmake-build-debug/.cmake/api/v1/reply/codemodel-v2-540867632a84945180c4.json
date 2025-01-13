@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "1679__Max_Number_of_K_Sum_Pairs",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1679__Max_Number_of_K_Sum_Pairs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1679__Max_Number_of_K_Sum_Pairs-Debug-5f51112feb8ebbf23691.json",
+					"name" : "1679__Max_Number_of_K_Sum_Pairs",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/xayotbek/Desktop/Tasks/Leetcode/1679. Max Number of K-Sum Pairs/cmake-build-debug",
+		"source" : "/Users/xayotbek/Desktop/Tasks/Leetcode/1679. Max Number of K-Sum Pairs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
