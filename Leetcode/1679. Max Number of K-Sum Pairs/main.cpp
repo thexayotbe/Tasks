@@ -1,6 +1,3 @@
-#include <iostream>
-using namespace std;
-
 class Solution {
 public:
     int maxOperations(vector<int> &nums, int k) {
@@ -22,11 +19,3 @@ public:
         return result;
     }
 };
-
-int main() {
-    vector<int> nums = {4, 4, 1, 3, 1, 3, 2, 2, 5, 5, 1, 5, 2, 1, 2, 3, 5, 4};
-    int k = 2;
-    Solution s;
-    std::cout << s.maxOperations(nums, k) << std::endl;
-    return 0;
-}
