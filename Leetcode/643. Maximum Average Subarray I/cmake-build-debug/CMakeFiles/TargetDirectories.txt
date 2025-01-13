@@ -1,0 +1,3 @@
+/Users/xayotbek/Desktop/Tasks/Leetcode/643. Maximum Average Subarray I/cmake-build-debug/CMakeFiles/643__Maximum_Average_Subarray_I.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/643. Maximum Average Subarray I/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/643. Maximum Average Subarray I/cmake-build-debug/CMakeFiles/rebuild_cache.dir

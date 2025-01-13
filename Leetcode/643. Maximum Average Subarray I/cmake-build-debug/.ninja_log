@@ -1,0 +1,17 @@
+# ninja log v6
+1	609	1736770640033361814	CMakeFiles/643__Maximum_Average_Subarray_I.dir/main.cpp.o	61bf80389318611a
+612	655	1736770640644346910	643__Maximum_Average_Subarray_I	482dd4bf01c917c4
+7	682	1736770755276073584	CMakeFiles/643__Maximum_Average_Subarray_I.dir/main.cpp.o	61bf80389318611a
+683	735	1736770755951574974	643__Maximum_Average_Subarray_I	482dd4bf01c917c4
+8	611	1736770820927656918	CMakeFiles/643__Maximum_Average_Subarray_I.dir/main.cpp.o	61bf80389318611a
+611	654	1736770821531374799	643__Maximum_Average_Subarray_I	482dd4bf01c917c4
+7	622	1736770833704862587	CMakeFiles/643__Maximum_Average_Subarray_I.dir/main.cpp.o	61bf80389318611a
+622	663	1736770834319880690	643__Maximum_Average_Subarray_I	482dd4bf01c917c4
+5	556	1736770855538850557	CMakeFiles/643__Maximum_Average_Subarray_I.dir/main.cpp.o	61bf80389318611a
+556	597	1736770856089854914	643__Maximum_Average_Subarray_I	482dd4bf01c917c4
+5	546	1736770866212266466	CMakeFiles/643__Maximum_Average_Subarray_I.dir/main.cpp.o	61bf80389318611a
+546	586	1736770866752944102	643__Maximum_Average_Subarray_I	482dd4bf01c917c4
+7	603	1736770915824145684	CMakeFiles/643__Maximum_Average_Subarray_I.dir/main.cpp.o	61bf80389318611a
+604	647	1736770916420681764	643__Maximum_Average_Subarray_I	482dd4bf01c917c4
+5	533	1736770930848768959	CMakeFiles/643__Maximum_Average_Subarray_I.dir/main.cpp.o	61bf80389318611a
+533	574	1736770931377327954	643__Maximum_Average_Subarray_I	482dd4bf01c917c4
