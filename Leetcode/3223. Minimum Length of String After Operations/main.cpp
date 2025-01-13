@@ -1,5 +1,3 @@
-#include <iostream>
-using namespace std;
 class Solution {
 public:
     int minimumLength(string s) {
@@ -22,9 +20,3 @@ public:
     }
 };
 
-int main() {
-    Solution solution;
-    string s = "ucvbutgkohgbcobqeyqwppbxqoynxeuuzouyvmydfhrprdbuzwqebwuiejoxsxdhbmuaiscalnteocghnlisxxawxgcjloevrdcj";
-    std::cout << solution.minimumLength(s) << std::endl;
-    return 0;
-}
