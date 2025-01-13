@@ -1,5 +1,3 @@
-#include <iostream>
-using namespace std;
 class Solution {
 public:
     double findMaxAverage(vector<int>& nums, int k) {
@@ -20,11 +18,3 @@ public:
         return maxSum/k;
     }
 };
-
-int main() {
-    Solution s;
-    vector<int> nums = {5};
-    int k = 1;
-    std::cout << s.findMaxAverage(nums, k) << std::endl;
-    return 0;
-}
