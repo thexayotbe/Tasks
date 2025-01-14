@@ -1,3 +1,0 @@
-/Users/xayotbek/Desktop/Tasks/Leetcode/1004. Max Consecutive Ones III/cmake-build-debug/CMakeFiles/1004__Max_Consecutive_Ones_III.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/1004. Max Consecutive Ones III/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/1004. Max Consecutive Ones III/cmake-build-debug/CMakeFiles/rebuild_cache.dir
