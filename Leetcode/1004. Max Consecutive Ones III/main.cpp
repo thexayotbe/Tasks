@@ -1,5 +1,3 @@
-#include <iostream>
-using namespace std;
 class Solution {
 public:
     int longestOnes(vector<int>& nums, int k) {
@@ -20,11 +18,3 @@ public:
         return maxLen;
     }
 };
-
-int main() {
-    Solution s;
-    vector<int> nums = {1,1,1,0,0,0,1,1,1,1,0};
-    int k = 2;
-    std::cout << s.longestOnes(nums,k) << std::endl;
-    return 0;
-}
