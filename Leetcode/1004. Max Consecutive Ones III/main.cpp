@@ -13,7 +13,7 @@ public:
                 }
                 left++;
             }
-        maxLen = max(maxLen, right - left + 1);
+            maxLen = max(maxLen, right - left + 1);
         }
         return maxLen;
     }
