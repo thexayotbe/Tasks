@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29)
+project(1456__Maximum_Number_of_Vowels_in_a_Substring_of_Given_Length)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(1456__Maximum_Number_of_Vowels_in_a_Substring_of_Given_Length main.cpp)
