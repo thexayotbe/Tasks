@@ -1,34 +1,26 @@
 class Solution {
 public:
+    bool isVowel(char c) {
+        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
+    }
     int maxVowels(string s, int k) {
-        int n = s.length();
-        vector<bool> isVowel(26, false);
-
-        for (char c: {'a', 'e', 'i', 'o', 'u'}) {
-            isVowel[c - 'a'] = true;
-        }
-
-
         int maxVowels = 0;
         int currentVowels = 0;
 
         for (int i = 0; i < k; i++) {
-            if (isVowel[s[i] - 'a']) {
+            if (isVowel(s[i])) {
                 currentVowels++;
             }
         }
 
         maxVowels = currentVowels;
 
-        if (maxVowels == k) return maxVowels;
-        for (int i = k; i < n; i++) {
-            if (isVowel[s[i-k] - 'a']) {
+        for (int i = k; i < s.length(); i++) {
+            if (isVowel(s[i-k])) {
                 currentVowels--;
             }
-            if (isVowel[s[i] - 'a']) currentVowels++;
-
+            if (isVowel(s[i])) currentVowels++;
             maxVowels = max(maxVowels, currentVowels);
-            if (maxVowels == k) break;
         }
         return maxVowels;
     }
