@@ -6,24 +6,33 @@ class Solution {
 public:
     int maxVowels(string s, int k) {
         int n = s.length();
-        unordered_set<char> vowels = { 'a', 'e', 'i', 'o', 'u'};
+        vector<bool> isVowel(26, false);
+
+        for (char c: {'a', 'e', 'i', 'o', 'u'}) {
+            isVowel[c - 'a'] = true;
+        }
+
+
         int maxVowels = 0;
         int currentVowels = 0;
 
-        for(int i = 0 ; i < k ; i++) {
-            if(vowels.find(s[i]) != vowels.end()) {
+        for (int i = 0; i < k; i++) {
+            if (isVowel[s[i] - 'a']) {
                 currentVowels++;
             }
         }
+
         maxVowels = currentVowels;
 
-        for(int i = k; i < n ; i++) {
-            if(vowels.find(s[i-k])!= vowels.end()) {
+        if (maxVowels == k) return maxVowels;
+        for (int i = k; i < n; i++) {
+            if (isVowel[s[i-k] - 'a']) {
                 currentVowels--;
             }
-            if(vowels.find(s[i]) != vowels.end()) currentVowels++;
+            if (isVowel[s[i] - 'a']) currentVowels++;
 
             maxVowels = max(maxVowels, currentVowels);
+            if (maxVowels == k) break;
         }
         return maxVowels;
     }

@@ -1,3 +1,0 @@
-/Users/xayotbek/Desktop/Tasks/Leetcode/1456. Maximum Number of Vowels in a Substring of Given Length/cmake-build-debug/CMakeFiles/1456__Maximum_Number_of_Vowels_in_a_Substring_of_Given_Length.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/1456. Maximum Number of Vowels in a Substring of Given Length/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/1456. Maximum Number of Vowels in a Substring of Given Length/cmake-build-debug/CMakeFiles/rebuild_cache.dir
