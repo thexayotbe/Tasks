@@ -1,6 +1,3 @@
-#include <iostream>
-using namespace std;
-
 class Solution {
 public:
     vector<int> findThePrefixCommonArray(vector<int> &A, vector<int> &B) {
@@ -28,11 +25,4 @@ public:
         return C;
     }
 };
-
-int main() {
-    Solution s;
-    vector<int> A = {1, 3, 2, 4}, B = {3, 1, 2, 4};
-    s.findThePrefixCommonArray(A, B);
-    return 0;
-}
 
