@@ -1,7 +1,3 @@
-#include <iostream>
-#include <unordered_set>
-using namespace std;
-
 class Solution {
 public:
     int maxVowels(string s, int k) {
@@ -37,11 +33,3 @@ public:
         return maxVowels;
     }
 };
-
-int main() {
-    Solution solution;
-    string s = "leetcode";
-    int k = 3;
-    std::cout << solution.maxVowels(s, k) << std::endl;
-    return 0;
-}
