@@ -1,6 +1,3 @@
-#include <iostream>
-using namespace std;
-
 class Solution {
 public:
     int longestSubarray(vector<int> &nums) {
@@ -30,9 +27,3 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-    vector<int> nums = {0,1,1,1,0,1,1,0,1};
-    std::cout << s.longestSubarray(nums) << std::endl;
-    return 0;
-}
