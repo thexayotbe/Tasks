@@ -1,6 +1,3 @@
-#include <iostream>
-using namespace std;
-
 class Solution {
 public:
     // Function to convert decimal to binary and return as a string
@@ -37,9 +34,4 @@ public:
 
     }
 };
-int main() {
-    Solution s;
-    int  num1 = 3, num2 = 5;
-    std::cout << s.minimizeXor(num1, num2) << std::endl;
-    return 0;
-}
+
