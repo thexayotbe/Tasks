@@ -1,3 +1,0 @@
-/Users/xayotbek/Desktop/Tasks/Leetcode/2429. Minimize XOR/cmake-build-debug/CMakeFiles/2429__Minimize_XOR.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/2429. Minimize XOR/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/2429. Minimize XOR/cmake-build-debug/CMakeFiles/rebuild_cache.dir
