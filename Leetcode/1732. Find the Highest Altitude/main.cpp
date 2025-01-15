@@ -1,5 +1,3 @@
-#include <iostream>
-using namespace std;
 class Solution {
 public:
     int largestAltitude(vector<int>& gain) {
@@ -14,9 +12,3 @@ public:
         return maxGain;
     }
 };
-int main() {
-    Solution solution;
-    vector<int> gain = {-5,1,5,0,-7};
-    std::cout << solution.largestAltitude(gain) << std::endl;
-    return 0;
-}
