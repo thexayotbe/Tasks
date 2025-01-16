@@ -1,7 +1,3 @@
-#include <iostream>
-#include <numeric>
-using namespace std;
-
 class Solution {
 public:
     int pivotIndex(vector<int> &nums) {
@@ -18,10 +14,3 @@ public:
         return -1;
     }
 };
-
-int main() {
-    Solution s;
-    vector<int> nums = {2,1,-1};
-    std::cout << s.pivotIndex(nums) << std::endl;
-    return 0;
-}
