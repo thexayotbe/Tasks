@@ -1,3 +1,0 @@
-/Users/xayotbek/Desktop/Tasks/Leetcode/724. Find Pivot Index/cmake-build-debug/CMakeFiles/724__Find_Pivot_Index.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/724. Find Pivot Index/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/724. Find Pivot Index/cmake-build-debug/CMakeFiles/rebuild_cache.dir
