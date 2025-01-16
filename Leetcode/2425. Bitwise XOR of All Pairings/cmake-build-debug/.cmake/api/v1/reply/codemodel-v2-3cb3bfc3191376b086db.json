@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "2425__Bitwise_XOR_of_All_Pairings",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "2425__Bitwise_XOR_of_All_Pairings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2425__Bitwise_XOR_of_All_Pairings-Debug-992176c6c093b7126b77.json",
+					"name" : "2425__Bitwise_XOR_of_All_Pairings",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/xayotbek/Desktop/Tasks/Leetcode/2425. Bitwise XOR of All Pairings/cmake-build-debug",
+		"source" : "/Users/xayotbek/Desktop/Tasks/Leetcode/2425. Bitwise XOR of All Pairings"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
