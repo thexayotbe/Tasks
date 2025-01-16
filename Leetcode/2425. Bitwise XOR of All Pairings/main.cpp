@@ -1,4 +1,3 @@
-
 class Solution {
 public:
     int xorAllNums(vector<int> &nums1, vector<int> &nums2) {
@@ -13,4 +12,3 @@ public:
         return (nums2.size() % 2 ? xor1 : 0) ^ (nums1.size() % 2 ? xor2 : 0);
     }
 };
-
