@@ -1,5 +1,3 @@
-#include <iostream>
-using namespace std;
 class Solution {
 public:
     bool doesValidArrayExist(vector<int>& derived) {
@@ -18,11 +16,3 @@ public:
     }
 };
 
-
-int main()
-{
-    Solution s;
-    vector<int> v = {1,1,0};
-    std::cout << s.doesValidArrayExist(v) << std::endl;
-    return 0;
-}
