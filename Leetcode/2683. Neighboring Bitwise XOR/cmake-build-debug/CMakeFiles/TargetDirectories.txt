@@ -1,0 +1,3 @@
+/Users/xayotbek/Desktop/Tasks/Leetcode/2683. Neighboring Bitwise XOR/cmake-build-debug/CMakeFiles/2683__Neighboring_Bitwise_XOR.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/2683. Neighboring Bitwise XOR/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/2683. Neighboring Bitwise XOR/cmake-build-debug/CMakeFiles/rebuild_cache.dir
