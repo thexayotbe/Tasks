@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "1368__Minimum_Cost_to_Make_at_Least_One_Valid_Path_in_a_Grid",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1368__Minimum_Cost_to_Make_at_Least_One_Valid_Path_in_a_Grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1368__Minimum_Cost_to_Make_at_Least_One_Valid_Path_in_a_Grid-Debug-73b9074b461df11ff5d3.json",
+					"name" : "1368__Minimum_Cost_to_Make_at_Least_One_Valid_Path_in_a_Grid",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/xayotbek/Desktop/Tasks/Leetcode/1368. Minimum Cost to Make at Least One Valid Path in a Grid/cmake-build-debug",
+		"source" : "/Users/xayotbek/Desktop/Tasks/Leetcode/1368. Minimum Cost to Make at Least One Valid Path in a Grid"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29)
+project(1368__Minimum_Cost_to_Make_at_Least_One_Valid_Path_in_a_Grid)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(1368__Minimum_Cost_to_Make_at_Least_One_Valid_Path_in_a_Grid main.cpp)
