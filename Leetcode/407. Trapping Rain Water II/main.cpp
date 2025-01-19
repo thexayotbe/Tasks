@@ -11,7 +11,6 @@ public:
         ans[0] = info >> 16, ans[1] = (info >> 8) & 255, ans[2] = info & 255;
         return ans;
     }
-
     static int trapRainWater(vector<vector<int>>& height) {
         const int m = height.size(), n = height[0].size();
         if (m <= 2 || n <= 2)
