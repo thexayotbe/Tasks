@@ -10,7 +10,6 @@ public:
         priority_queue<pair<int, pair<int, int>>, vector<pair<int, pair<int, int>>>, greater<pair<int, pair<int,
             int>>>> pq;
         int vol = 0;
-
         for (int i = 0; i < R; i++) {
             for (int j = 0; j < C; j++) {
                 if (i == 0 || i == R - 1 || j == 0 || j == C - 1) {
