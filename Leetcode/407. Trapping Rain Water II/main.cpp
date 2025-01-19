@@ -21,6 +21,7 @@ public:
 
         // Add boundary cells  mark  visited
         int idx = 0;
+
         for (int i = 0; i < m; i++) {
             boundary[idx++] = pack(height[i][0], i, 0);
             boundary[idx++] = pack(height[i][n - 1], i, n - 1);
