@@ -1,6 +1,3 @@
-#include <iostream>
-using namespace std;
-
 class Solution {
 public:
     int trapRainWater(vector<vector<int> > &grid) {
@@ -42,9 +39,3 @@ public:
         };
     }
 };
-    int main() {
-        Solution s;
-        vector<vector<int> > heightMap = {{1, 4, 3, 1, 3, 2}, {3, 2, 1, 3, 2, 4}, {2, 3, 3, 2, 3, 1}};
-        std::cout << s.trapRainWater(heightMap) << std::endl;
-        return 0;
-    }
