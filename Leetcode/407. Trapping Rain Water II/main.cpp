@@ -64,7 +64,6 @@ public:
                 push_heap(boundary.begin(), boundary.end(), greater<>());
             }
         }
-
         return ans;
     }
 };
