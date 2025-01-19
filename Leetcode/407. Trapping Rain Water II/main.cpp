@@ -26,7 +26,6 @@ public:
             boundary[idx++] = pack(height[i][n - 1], i, n - 1);
             height[i][0] = height[i][n - 1] = -1; // visited
         }
-
         for (int j = 1; j < n - 1; j++) {
             boundary[idx++] = pack(height[0][j], 0, j);
             boundary[idx++]=pack(height[m - 1][j], m - 1, j);
