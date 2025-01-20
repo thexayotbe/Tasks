@@ -2,6 +2,7 @@
 class Solution {
 public:
     int firstCompleteIndex(vector<int>& arr, vector<vector<int>>& mat) {
+
       unordered_map<int, pair<int,int>> hashmap;
 
         int m = mat.size();
