@@ -3,7 +3,6 @@ public:
     long long gridGame(vector<vector<int>>& grid) {
         int n = grid[0].size();
 
-        // Calculate prefix sums for both rows
         vector<long long> prefixTop(n, 0);
         vector<long long> prefixBottom(n, 0);
 
@@ -15,8 +14,6 @@ public:
             prefixBottom[i] = prefixBottom[i - 1] + grid[1][i];
         }
 
-        // The second robot wants to maximize its score
-        // The first robot will leave the second robot with the minimum of the two possible paths
         long long result = LLONG_MAX;
 
         for (int i = 0; i < n; ++i) {
