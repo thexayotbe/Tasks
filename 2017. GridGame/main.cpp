@@ -21,7 +21,6 @@ public:
             long long option2 = (i > 0) ? prefixBottom[i - 1] : 0;
             result = min(result, max(option1, option2));
         }
-
         return result;
     }
 };
