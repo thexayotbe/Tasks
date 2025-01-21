@@ -1,7 +1,3 @@
-#include <iostream>
-#include <vector>
-using namespace std;
-
 class Solution {
 public:
     long long gridGame(vector<vector<int>>& grid) {
@@ -32,10 +28,3 @@ public:
         return result;
     }
 };
-
-int main() {
-    Solution s;
-    vector<vector<int>> grid = {{2, 5, 4}, {1, 5, 1}};
-    std::cout << s.gridGame(grid) << std::endl;  // Output should be 4
-    return 0;
-}
