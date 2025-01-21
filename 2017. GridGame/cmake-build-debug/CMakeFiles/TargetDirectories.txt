@@ -1,3 +1,0 @@
-/Users/xayotbek/Desktop/Tasks/2017. GridGame/cmake-build-debug/CMakeFiles/2017__GridGame.dir
-/Users/xayotbek/Desktop/Tasks/2017. GridGame/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xayotbek/Desktop/Tasks/2017. GridGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
