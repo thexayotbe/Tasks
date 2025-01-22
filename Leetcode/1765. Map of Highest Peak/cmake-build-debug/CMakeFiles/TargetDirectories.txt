@@ -1,3 +1,0 @@
-/Users/xayotbek/Desktop/Tasks/Leetcode/1765. Map of Highest Peak/cmake-build-debug/CMakeFiles/1765__Map_of_Highest_Peak.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/1765. Map of Highest Peak/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/1765. Map of Highest Peak/cmake-build-debug/CMakeFiles/rebuild_cache.dir
