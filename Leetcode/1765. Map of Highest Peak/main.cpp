@@ -25,7 +25,6 @@ public:
                     height[i][j] = min(height[i][j], height[i][j + 1] + 1); // Check from right
             }
         }
-
         return height;
     }
 };
