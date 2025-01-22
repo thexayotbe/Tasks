@@ -29,9 +29,3 @@ public:
         return height;
     }
 };
-int main() {
-    Solution solution;
-    vector<vector<int>> isWater = isWater = {{0,1},{0,0}};
-    solution.highestPeak(isWater);
-        return 0;
-}
