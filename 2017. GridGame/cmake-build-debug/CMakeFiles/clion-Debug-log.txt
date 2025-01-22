@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /Users/xayotbek/Desktop/Tasks/2017. GridGame Select CMakeLists.txt
