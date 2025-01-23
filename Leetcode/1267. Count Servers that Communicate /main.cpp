@@ -1,5 +1,3 @@
-#include <iostream>
-using namespace std;
 class Solution {
 public:
     int countServers(vector<vector<int>>& grid) {
@@ -25,9 +23,3 @@ public:
         return count;
     }
 };
-
-int main() {
-    vector<vector<int>> grid = {{1,0}, {0,1}};
-    cout << Solution().countServers(grid) << endl;
-    return 0;
-}
