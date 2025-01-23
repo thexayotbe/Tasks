@@ -3,6 +3,7 @@ public:
     int countServers(vector<vector<int>>& grid) {
         int m = grid.size();
         int n = grid[0].size();
+
         vector<int> R(m);
         vector<int> C(n);
         int count = 0;
