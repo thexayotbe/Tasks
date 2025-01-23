@@ -11,13 +11,13 @@ public:
         int count = 0;
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < n; j++) {
-                R[j] = grid[i][j];
-                C[j] = grid[i][j];
+                R[i] += grid[i][j];
+                C[j] += grid[i][j];
             }
         }
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < n; j++) {
-                if(grid[i][j] == 1 && (R[j] > 1 || C[j] > 1) ) {
+                if(grid[i][j] == 1 && (R[i] > 1 || C[j] > 1) ) {
                     count++;
                 }
             }
