@@ -1,0 +1,3 @@
+/Users/xayotbek/Desktop/Tasks/Leetcode/1267. Count Servers that Communicate /cmake-build-debug/CMakeFiles/1267__Count_Servers_that_Communicate_.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/1267. Count Servers that Communicate /cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/1267. Count Servers that Communicate /cmake-build-debug/CMakeFiles/rebuild_cache.dir
