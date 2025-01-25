@@ -25,7 +25,6 @@ public:
             for (const auto& [value, index] : group) {
                 indices.push_back(index);
             }
-
             sort(indices.begin(), indices.end());
 
             for (size_t i = 0; i < indices.size(); ++i) {
