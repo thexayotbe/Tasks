@@ -20,7 +20,6 @@ public:
                 groupedPairs.push_back({valueIndexPairs[i]});
             }
         }
-
         for (const auto& group : groupedPairs) {
             vector<int> indices;
             for (const auto& [value, index] : group) {
