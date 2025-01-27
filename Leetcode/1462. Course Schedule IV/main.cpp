@@ -16,7 +16,6 @@ public:
                 }
             }
         }
-
         // Step 4: Answer the queries
         vector<bool> result;
         for (auto& query : queries) {
