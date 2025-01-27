@@ -1,6 +1,3 @@
-#include <iostream>
-#include <vector>
-using namespace std;
 class Solution {
 public:
     vector<bool> checkIfPrerequisite(int numCourses, vector<vector<int>>& prerequisites, vector<vector<int>>& queries) {
@@ -30,8 +27,3 @@ public:
         return result;
     }
 };
-
-int main() {
-    cout  << " hello" << endl;
-    return 0;
-}
