@@ -8,8 +8,6 @@ public:
         for (auto& prereq : prerequisites) {
             reachable[prereq[1]].insert(prereq[0]);
         }
-
-
         // Step 3: Propagate reachability to account for indirect prerequisites
         for (int i = 0; i < numCourses; ++i) {
             for (int j = 0; j < numCourses; ++j) {
